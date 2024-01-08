@@ -1,0 +1,85 @@
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    width: 1320px;
+    height: 600px;
+    border-radius: 16px;
+
+    position: relative;
+    margin: 50px auto;
+    text-align: center;
+    font-family: 'Merriweather';
+}
+
+.container img {
+    border-radius: 16px;
+    background: #a3a3a3;
+    filter: brightness(70%);
+
+}
+
+.header1 {
+    color: #ffff;
+    /* text-align: center; */
+    font-size: 32px;
+    font-weight: 400;
+    position: absolute;
+    top: 177px;
+    right: 531px;
+    bottom: 383px;
+    left: 530px;
+
+}
+
+.header2 {
+    color: #ffff;
+    font-size: 72px;
+    font-weight: 900;
+    position: absolute;
+    top: 233px;
+    right: 344px;
+    bottom: 177px;
+    left: 343px;
+}
+
+.offer-title {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    top: 120px;
+    right: 466px;
+    left: 468px;
+
+}
+
+.offer-detail {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    top: 48px;
+    right: 8px;
+    left: 6px;
+}
+
+.offer-body {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    top: 16px;
+}
+.ny-img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
