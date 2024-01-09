@@ -335,11 +335,6 @@ body {
 /* our awesome portfolio part */
 
 
-.spicfile{
-    display: flex;
-    justify-content: center;
-}
-
 .gift {
     color: #F00;
     font-family: Inter;
@@ -362,7 +357,45 @@ body {
     font-weight: 400;
 
 }
-.pictures67{
+
+.pictures67 {
     padding-right: 24px;
     padding-bottom: 24px;
+}
+
+.subs {
+    border: 1px solid rgba(255, 0, 0, 0.05);
+    background-color: rgb(216, 191, 216);
+    text-align: center;
+}
+
+/* footer */
+
+.foot {
+    background-color: #070211;
+    border: 1px solid black;
+    width: 100%;
+    text-align: center;
+
+}
+
+.address {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.copyr {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.btn-end {
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    color: #fff8f3;
+    
 }
