@@ -1,4 +1,3 @@
-
 body {
     font-family: 'Inter', sans-serif;
     font-family: 'Merriweather', serif;
@@ -11,21 +10,21 @@ body {
     border-radius: 16px;
 
     position: relative;
-    margin: 50px auto;
+    margin: 120px auto;
     text-align: center;
     font-family: 'Merriweather';
 }
 
-.container img {
+.banner-img {
     border-radius: 16px;
     background: #a3a3a3;
-    filter: brightness(70%);
+    filter: brightness(65%);
 
 }
 
+
 .header1 {
     color: #ffff;
-    /* text-align: center; */
     font-size: 32px;
     font-weight: 400;
     position: absolute;
@@ -56,6 +55,7 @@ body {
     top: 120px;
     right: 466px;
     left: 468px;
+    text-decoration: none;
 
 }
 
@@ -68,6 +68,7 @@ body {
     top: 48px;
     right: 8px;
     left: 6px;
+    text-decoration: none;
 }
 
 .offer-body {
@@ -77,9 +78,94 @@ body {
     font-size: 48px;
     font-weight: 700;
     top: 16px;
+    text-decoration: none;
 }
-.ny-img{
+
+.ny-img {
     display: block;
     margin-right: auto;
     margin-left: auto;
+}
+
+/* part3, welcome to mid-party */
+
+/* .party {
+    display: block;
+    width: 1320px;
+    height: 600px; 
+   
+     */
+
+.party {
+    /* width: 1320px;
+    height: 600px;
+    background-image: url(../resources/Vectorrr.png);
+    filter: brightness(83%);
+    background-repeat: no-repeat;
+    margin: 120px 260px 120px 260px;
+    display: flex; */
+    width: 1320px;
+    height: 600px;
+    background: url(../resources/Vectorrr.png);
+    opacity: 89%;
+    background-repeat: no-repeat;
+    position: absolute;
+    margin: 120px 260px 120px 290px;
+    display: flex;
+}
+
+.party-bod {
+    display: inline;
+    width: 500px;
+    height: 120px;
+}
+
+.party-img {
+    position: absolute;
+    top: 75px;
+    right: 144px;
+    bottom: 78px;
+    left: 844px;
+}
+
+
+.party-welcome {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 56px;
+    font-weight: 900;
+    top: 126px;
+    right: 555px;
+    bottom: 298px;
+    left: 126px;
+    letter-spacing: 7.04px;
+    position: absolute;
+
+}
+
+.party-par {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    top: 326px;
+    right: 496px;
+    bottom: 214px;
+    left: 126px;
+    position: absolute;
+    position: relative;
+}
+
+.party-btn {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    top: 434px;
+    right: 1060px;
+    bottom: 142px;
+    left: 160px;
+    position: absolute;
+    background: none;
+    border: none;
 }
