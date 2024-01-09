@@ -146,6 +146,7 @@ body {
 }
 
 .party-par {
+    width: 600px;
     color: rgb(255, 255, 255);
     font-family: Inter;
     font-size: 12px;
@@ -189,7 +190,11 @@ body {
     font-family: Inter;
     font-size: 28px;
     font-weight: 600;
-    top: 100px 386px 214px 385px;
+    top: 100px;
+    text-align: center;
+    width: 0 auto;
+
+
 }
 
 /* place date and time */
@@ -214,26 +219,135 @@ body {
 
 /* the three column section */
 
-#id{
-    width: 900px;
-    margin: 0, auto;
+.container-col {
+    display: flex;
+    justify-content: center;
 }
 
-.column {
-   
+.new-offer-red1 {
+    color: #F00;
+
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    /* top: 3122px;
+    right: 1253px;
+    /* bottom: 4184px; */
+    /* left: 140px; */
 }
 
 
+.new-offer-bl {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    /* top: 3167px;
+    right: 1132px;
+    bottom: 4108px;
+    left: 140px; */
 
-.new-offer-red {
+
+
+}
+
+.new-offer-text1 {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    /* /* top: 3249px;
+    right: 1067px;
+    bottom: 3958px;
+    left: 140px; */
+}
+
+.img1 {
+    border: 11px solid red;
+    border-radius: 50%;
+    padding: 50px;
+    position: absolute;
+    top: 3375px;
+    right: 599px;
+    bottom: 3903px;
+    left: 627px;
+}
+
+.column-left {
+    width: 33.33%;
+    top: 3300px;
+    right: 1100px;
+    bottom: 4000px;
+    left: 565px;
+}
+
+.column-right {
+    width: 33.33%;
+    top: 3267px;
+    right: 480px;
+    bottom: 3903px;
+    left: 1312px;
+}
+
+.new-offer-red2 {
     color: #F00;
     text-align: justify;
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
+    top: 3130px;
+    right: 289px;
+    bottom: 4147px;
+    left: 1184px;
 }
 
-.new-offer-bl {
+.new-offer-text2 {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    top: 3204px;
+    right: 140px;
+    bottom: 4035px;
+    left: 1184px;
+}
+
+/* banner work */
+.holiday {
+    background-color: #fff8f3;
+    background-image: url(../resources/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    display: flex;
+}
+
+.holiday-body {
+    padding: 120px 140px 0px 120px;
+    display: flex;
+    align-items: center;
+}
+
+.hol-pic1 {
+    width: 500px;
+}
+
+
+/* our awesome portfolio part */
+
+
+.spicfile{
+    display: flex;
+    justify-content: center;
+}
+
+.gift {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.port {
     color: #070211;
     font-family: Merriweather;
     font-size: 48px;
@@ -241,9 +355,14 @@ body {
 
 }
 
-.new-offer-text {
+.gtext {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
-    font-size: 20px;  
+    font-size: 20px;
     font-weight: 400;
+
+}
+.pictures67{
+    padding-right: 24px;
+    padding-bottom: 24px;
 }
